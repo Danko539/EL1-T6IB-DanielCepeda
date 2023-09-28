@@ -18,19 +18,19 @@
 				<div class="card-body">
 					<div class="form-group">
 						<label>NOMBRE</label>
-						<input type="text" th:field="*{}" class="form-control">
+						<input type="text" th:field="*{nombre}" class="form-control">
 					</div>
 					<div class="form-group">
 						<label>DESCRIPCION</label>
-						<input type="text" th:field="*{}" class="form-control">
+						<input type="text" th:field="*{descripcion}" class="form-control">
 					</div>
 					<div class="form-group">
 						<label>IMAGEN</label>
-						<input type="file" th:field="*{}" class="form-control">
+						<input type="file" class="form-control" id="img" name="img">
 					</div>
 					<div class="form-group">
 						<label>PRECIO</label>
-						<input type="text" th:field="*{}" class="form-control">
+						<input type="number" th:field="*{precio}" class="form-control">
 					</div>
 				</div>
 				<div class="card-footer">
